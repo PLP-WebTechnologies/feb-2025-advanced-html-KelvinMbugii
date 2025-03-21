@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week Two Assignment</title>
+</head>
+<body>
+    <!--Creating a List-->
+    <h1>List of languages used in web development</h1>
+    <ol type="i">
+       <li>HTML5</li>
+       <li>CSS</li>
+       <li>Javascript</li>
+       <li>Typescript</li>
+       <li>PHP</li>
+    </ol>
+    <br><br>
+    <h2>My introduction Image</h2>
+    <img src="https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="coding Image" height="720" weidth="720">
+    <br><br>
+    <!--Creating a Contact Table-->
+    <h2>Contact table</h2>
+    <table border="2">
+        <thead>
+        <tr>
+            <th>Name:</th>
+            <th>Address:</th>
+            <th>Mobile:</th>
+            <th>Emails:</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>John</td>
+            <td>Waiyaki way</td>
+            <td>0722334456</td>
+            <td>john254@gmail.com</td>
+        </tr>
+        <tr>
+            <td>James</td>
+            <td>Kenyatta road</td>
+            <td>0700011122</td>
+            <td>james1998@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Sarah</td>
+            <td>Mombasa road</td>
+            <td>0765567788</td>
+            <td>sarahbee@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Marry</td>
+            <td>Thika road</td>
+            <td>0798997722</td>
+            <td>marrymarry@gmail.com</td>
+        </tr>
+    </tbody>
+    </table>
+    <br><br>
+    <!--Creating a form-->
+    <h2>Registration form</h2>
+    <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="password"> Password:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+        <label for="Date">Date:</label>
+        <input type="datetime" name="date" id="date">
+        <br><br>
+        <!-- A drop down for country lived-->
+         <label for="country">Choose a country:</label>
+        <select name="countries" id="countries">
+           <option value="Kenya">Kenya</option>
+           <option value="SouthAfrica">SouthAfrica</option>
+           <option value="Uganda">Uganda</option>
+           <option value="Rwanda">Rwanda</option>
+           <option value="Congo">Congo</option>
+        </select>
+        <br><br>
+        <h3>Whats your gender?</h3>
+        <!--Radio buttons-->
+        <label for="gender">Gender:</label>
+        <input type="radio" id="gender" name="gender" value="Male">Male
+        <input type="radio" id="gender" name="gender" value="Female">Female
+        <br><br>
+        <h3>Choose a Programming language</h3>
+        <!--Checkboxes-->
+        <label for="languages">
+        <input type="checkbox" id="languages" name="languages" value="HTML5">HTML5
+        </label><br>
+        <label for="languages">
+        <input type="checkbox" id="languages" name="languages" value="Javascript">Javascript
+        </label><br>
+        <label for="languages">
+        <input type="checkbox" id="languages" name="languages" value="CSS">CSS
+        </label><br>
+        <label for="languages">
+        <input type="checkbox" id="languages" name="languages" value="Typescript">Typescript
+        </label><br>
+        <label for="languages">
+        <input type="checkbox" id="languages" name="languages" value="PHP">PHP
+        </label><br>
+        <br><br>
+        <!--Creating a submit and reset buttons-->
+        <input type="submit" name="submit" id="submit">
+        <input type="reset" name="reset" id="reset">
+    </form>
+</body>
+</html>
